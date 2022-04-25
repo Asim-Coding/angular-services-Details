@@ -14,6 +14,10 @@ export class AppComponent  {
 
   }
   ngOnInit(){
-    this.msg=this._messageservice.getmessage();
+    //this.msg=this._messageservice.getmessage();
   }
+  // getmessage(){
+  //   this.msg=this._messageservice.getmessage();
+  //   this.othermsg=this._othermessage.getothermessage();
+  // }
 }
